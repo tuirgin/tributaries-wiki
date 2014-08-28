@@ -127,6 +127,9 @@ require_once "$IP/extensions/Cite/Cite.php";
 require_once "$IP/extensions/Poem/Poem.php";
 require_once "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php";
 require_once "$IP/extensions/WikiEditor/WikiEditor.php";
+require_once "$IP/extensions/Mantle/Mantle.php";
+require_once "$IP/extensions/MobileFrontend/MobileFrontend.php";
+$wgMFAutodetectMobileView = true;
 
 # Enables use of WikiEditor by default but still allow users to disable it in preferences
 $wgDefaultUserOptions['usebetatoolbar'] = 1;
