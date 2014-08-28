@@ -129,7 +129,7 @@ require_once "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php";
 require_once "$IP/extensions/WikiEditor/WikiEditor.php";
 
 $wgSMTP = array(
-	'host' => 'tls://smtp.gmail.com',
+	'host' => 'smtp.gmail.com',
 	'IDHost' => 'gmail.com',
 	'port' => 587,
 	'username' => 'fyodor.wolfe@gmail.com',
