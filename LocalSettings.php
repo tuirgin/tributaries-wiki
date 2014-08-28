@@ -130,6 +130,9 @@ require_once "$IP/extensions/WikiEditor/WikiEditor.php";
 require_once "$IP/extensions/Mantle/Mantle.php";
 require_once "$IP/extensions/MobileFrontend/MobileFrontend.php";
 $wgMFAutodetectMobileView = true;
+require_once "$IP/extensions/Interwiki/Interwiki.php";
+// To grant sysops permissions to edit interwiki data
+$wgGroupPermissions['sysop']['interwiki'] = true;
 
 # Enables use of WikiEditor by default but still allow users to disable it in preferences
 $wgDefaultUserOptions['usebetatoolbar'] = 1;
