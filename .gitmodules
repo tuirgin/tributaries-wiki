@@ -1,6 +1,0 @@
-[submodule "extensions/Mantle"]
-	path = extensions/Mantle
-	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Mantle.git
-[submodule "extensions/MobileFrontend"]
-	path = extensions/MobileFrontend
-	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MobileFrontend.git
