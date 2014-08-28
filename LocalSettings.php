@@ -127,7 +127,7 @@ $wgSMTP = array(
 	'username' => 'fyodor.wolfe@gmail.com',
 	'password' => 'F4A0%Nc*c3Q^kp!zG@%F',
 	'auth' => true
-	)
+	);
 
 # End of automatically generated settings.
 # Add more configuration options below.
