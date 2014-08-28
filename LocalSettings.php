@@ -127,8 +127,8 @@ require_once "$IP/extensions/Cite/Cite.php";
 require_once "$IP/extensions/Poem/Poem.php";
 require_once "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php";
 require_once "$IP/extensions/WikiEditor/WikiEditor.php";
-require_once "$IP/extensions/Mantle/Mantle.php";
-require_once "$IP/extensions/MobileFrontend/MobileFrontend.php";
+// require_once "$IP/extensions/Mantle/Mantle.php";
+// require_once "$IP/extensions/MobileFrontend/MobileFrontend.php";
 $wgMFAutodetectMobileView = true;
 require_once "$IP/extensions/Interwiki/Interwiki.php";
 // To grant sysops permissions to edit interwiki data
