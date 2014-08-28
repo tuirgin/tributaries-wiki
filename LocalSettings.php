@@ -128,6 +128,16 @@ require_once "$IP/extensions/Poem/Poem.php";
 require_once "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php";
 require_once "$IP/extensions/WikiEditor/WikiEditor.php";
 
+# Enables use of WikiEditor by default but still allow users to disable it in preferences
+$wgDefaultUserOptions['usebetatoolbar'] = 1;
+$wgDefaultUserOptions['usebetatoolbar-cgd'] = 1;
+ 
+# Displays the Preview and Changes tabs
+$wgDefaultUserOptions['wikieditor-preview'] = 1;
+ 
+# Displays the Publish and Cancel buttons on the top right side
+$wgDefaultUserOptions['wikieditor-publish'] = 1;
+
 $wgSMTP = array(
 	'host' => 'smtp.gmail.com',
 	'IDHost' => 'gmail.com',
