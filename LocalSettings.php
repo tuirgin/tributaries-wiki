@@ -47,8 +47,8 @@ $wgEnableUserEmail = true; # UPO
 $wgEmergencyContact = "apache@tributaries-wiki.herokuapp.com";
 $wgPasswordSender = "apache@tributaries-wiki.herokuapp.com";
 
-$wgEnotifUserTalk = false; # UPO
-$wgEnotifWatchlist = false; # UPO
+$wgEnotifUserTalk = true; # UPO
+$wgEnotifWatchlist = true; # UPO
 $wgEmailAuthentication = true;
 
 ## Database settings
